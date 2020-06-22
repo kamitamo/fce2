@@ -67,10 +67,10 @@ paginate_path: /page:num/
 #   - vendor/ruby/
 
 # Collections
-collections:
-  recipes:
-    output: true
-    permalink: /:collection/:path/
+#collections:
+#  recipes:
+#    output: true
+#    permalink: /:collection/:path/
 
 # Front Matter Defaults
 defaults:
