@@ -1,7 +1,6 @@
 ---
+title: "コーチ紹介"
 layout: page
-title: コーチ紹介
-permalink: /coach/
 ---
 ***
 <img src="https://www.fc-esblanco.com/img/c01.jpg" alt="篠原 和之"/>  

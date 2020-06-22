@@ -1,7 +1,6 @@
 ---
+title: "プライバシーポリシー"
 layout: page
-title: プライバシーポリシー
-permalink: /privacypolicy/
 ---
 
 ***

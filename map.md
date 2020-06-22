@@ -1,7 +1,6 @@
 ---
+title: "練習場所"
 layout: page
-title: 練習場所
-permalink: /map/
 ---
 
 ***
