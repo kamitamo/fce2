@@ -17,7 +17,7 @@ lang: ja
 title: FC Esblanco
 email: info@fc-esblanco.com
 description: "FCエスブランコは、江戸川区小岩地区を中心に活動している少年サッカークラブです"
-baseurl: ""  # the subpath of your site, e.g. /blog
+baseurl: /  # the subpath of your site, e.g. /blog
 url: ""  # the base hostname & protocol for your site, e.g. http://example.com
 author:
   name: FC Esblanco
