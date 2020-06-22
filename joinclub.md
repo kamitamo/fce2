@@ -1,7 +1,6 @@
 ---
+title: "入部について"
 layout: page
-title: 入部について
-permalink: /joinclub/
 ---
 
 ***

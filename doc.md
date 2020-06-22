@@ -1,7 +1,6 @@
 ---
+title: "資料"
 layout: page
-title: 資料
-permalink: /doc/
 ---
 
 ***

@@ -1,7 +1,6 @@
 ---
+title: "リンク"
 layout: page
-title: リンク
-permalink: /link/
 ---
 
 ***
