@@ -14,7 +14,7 @@ t:
   email: "Email"
   subscribe: "Subscribe"
   read_more: "Read More"
-  posts: "Posts"
+  posts: "最新情報"
   page: "Page"
   of: "of"
   min_read: "min read"
@@ -30,14 +30,12 @@ google_fonts:
 # pages that have a `title`. Add raw page paths in the order you'd like.
 
 navigation_pages:
-  - posts.md
+  - categories.md
   - about.md
   - coach.md
   - map.md
   - joinclub.md
-  - cv.md
-  - doc.md
+  - schedule.md
   - link.md
-  - tags.md
-  - categories.md
   - privacypolicy.md
+  - doc.md
