@@ -22,10 +22,14 @@ url: ""  # the base hostname & protocol for your site, e.g. http://example.com
 author:
   name: FC Esblanco
   twitter: fcesblanco
+  facebook: fcesblanco
   picture: /assets/images/logo.png
 twitter_username: fcesblanco
+facebook_username: FC-エスブランコ-205464673717617
 github_username:
 logo: /assets/images/logo.png
+google_analytics:
+copyright: "FC Esblanco copyright."
 search: false
 search_full_content: false
 search_provider:
