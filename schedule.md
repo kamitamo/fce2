@@ -4,7 +4,7 @@ layout: page
 actions:
   - label: "PDFでカレンダを見る"
     icon: pdf
-    url: "assets/pdf/202006_schedule.pdf"
+    url: "assets/pdf/schedule.pdf"
 ---
 
-![no-alignment]({{ site.url }}{{ site.baseurl }}/assets/images/202006_schedule.png)
+![no-alignment]({{ site.url }}{{ site.baseurl }}/assets/images/schedule.png)
