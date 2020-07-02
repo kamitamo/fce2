@@ -22,6 +22,7 @@
   </script>
 
   <link rel="stylesheet" href="{{ 'assets/css/style.css' | relative_url }}">
+  <link rel="apple-touch-icon" href="{{ 'assets/apple-touch-icon.png' | relative_url }}">
   <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="{{ 'assets/favicon.ico' | relative_url }}">
   {% if site.data.theme.google_fonts %}
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family={% for font in site.data.theme.google_fonts %}{{ font.name | replace: ' ', '+' }}{% if font.weights %}:{% endif %}{{ font.weights | remove: ' ' }}{% if forloop.last != true %}|{% endif %}{% endfor %}" crossorigin="anonymous">
