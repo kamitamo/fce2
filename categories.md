@@ -1,5 +1,6 @@
 ---
-title: "最新情報"
+title: "アーカイブ"
 layout: categories
 permalink: /categories/
+entries_layout: grid
 ---

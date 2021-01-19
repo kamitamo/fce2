@@ -2,7 +2,8 @@
 title: "2020年度U-10 東京クラシコ TOKYO Clasico"
 layout: post
 categories:
-  - U-10
+  - 2020年度
+  - 2020年度U-10
 introduction: |
 ---
 
