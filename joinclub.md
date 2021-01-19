@@ -10,5 +10,5 @@ FCエスブランコでは男女問わず園児(年少)〜随時メンバーを�
 お試しで一度やってみたい、という方のために体験入部も受け付けています。  
   
 体験・見学 お気軽にお問い合わせください。  
-お問い合わせは <a href="mailto:info@fc-esblanco.com" title="メール">info@fc-esblanco.com</a> までお願い致します。
+お問い合わせは <a href="mailto:info@fc-esblanco.com?subject=WEBからの問い合わせ" title="メール">info@fc-esblanco.com</a> までお願い致します。
 

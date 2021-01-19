@@ -1,7 +1,7 @@
 <ul class="contact-list">
   {% if site.email %}
     <li>
-      <a href="mailto:{{ site.email }}">
+      <a href="mailto:{{ site.email }}?subject=WEBからの問い合わせ">
         <span class="icon icon--email">{% include icon-email.svg %}</span>
         <span class="label">{{ site.data.theme.t.email | default: 'Email' }}</span>
       </a>
