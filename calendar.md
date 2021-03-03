@@ -1,5 +1,5 @@
 ---
-title: "カレンダ"
+title: "活動予定表"
 layout: page
 ---
 
@@ -15,6 +15,7 @@ layout: page
 
       let calendar = new FullCalendar.Calendar(calendarEl, {
 
+      contentHeight: 'auto',
       initialView: 'listMonth',
       themeSystem: 'bootstrap',
       locale: 'ja',
