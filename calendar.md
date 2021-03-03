@@ -15,6 +15,7 @@ layout: page
 
       let calendar = new FullCalendar.Calendar(calendarEl, {
 
+      initialView: 'listMonth',
       themeSystem: 'bootstrap',
       locale: 'ja',
       dayCellContent: function(e) {
@@ -22,19 +23,20 @@ layout: page
       },
 
       headerToolbar: {
-        left: "dayGridMonth,listMonth,today",
+        left: "prev",
         center: "title",
-        right: "prev,next"
+        right: "next"
       },
+
+      
       buttonText: {
-        listMonth: 'リスト',
         next: '>',
         prev: '<'
       },
 
       views: {
         listMonth: {
-          listDayFormat: { month: 'numeric', day: 'numeric', weekday: 'narrow' },
+          listDayFormat: { day: 'numeric', weekday: 'narrow' },
           listDaySideFormat: false
         }
       },
@@ -42,6 +44,7 @@ layout: page
       navLinks: false,
       businessHours: true,
       editable: false,
+
       
         googleCalendarApiKey: 'AIzaSyAbxROeLBWbK9xs7VGm26Ql2JjpU2VONu0',
         eventSources: [
@@ -54,14 +57,14 @@ layout: page
         }
         ],
 
- eventClick: function(info) {
-    alert('タイトル：' + info.event.title + '\n' + '場所：' + info.event.extendedProps.location + '\n' + '詳細：' + info.event.extendedProps.description );
+        eventClick: function(info) {
+             alert('タイトル：' + info.event.title + '\n' + '場所：' + info.event.extendedProps.location + '\n' + '詳細：' + info.event.extendedProps.description );
     info.jsEvent.preventDefault();
+         if (info.event.url) {
+         }
+        },
 
-    if (info.event.url) {
-     
-    }
-  }
+
       });
 
         calendar.render();
