@@ -10,6 +10,15 @@ layout: page
     <script src='assets/javascripts/fullcalendar/locales/ja.js'></script>
     <script>
 
+        function AutoLink(str) {
+            var regexp_url = /((h?)(ttps?:\/\/[a-zA-Z0-9.\-_@:/~?%&;=+#',()*!]+))/g; // ']))/;
+            var regexp_makeLink = function(all, url, h, href) {
+                return '<a href="h' + href + '">' + url + '</a>';
+            }
+            return str.replace(regexp_url, regexp_makeLink);
+        }
+
+
       document.addEventListener('DOMContentLoaded', function() {
       var calendarEl = document.getElementById('calendar');
 
@@ -46,21 +55,25 @@ layout: page
       businessHours: true,
       editable: false,
 
-      
+
         googleCalendarApiKey: 'AIzaSyAbxROeLBWbK9xs7VGm26Ql2JjpU2VONu0',
         eventSources: [
-        {
-          googleCalendarId: 'ja.japanese#holiday@group.v.calendar.google.com',
-          className: 'event_holiday'
-        },
         {
           googleCalendarId: '57kunjloinh68h73hug19l4tjg@group.calendar.google.com'
         }
         ],
 
         eventClick: function(info) {
-             alert('タイトル：' + info.event.title + '\n' + '場所：' + info.event.extendedProps.location + '\n' + '詳細：' + info.event.extendedProps.description );
-    info.jsEvent.preventDefault();
+          let location = "";
+          let description = "";
+          if ( info.event.extendedProps.location !== undefined ) {
+               location = info.event.extendedProps.location;
+          }
+          if ( info.event.extendedProps.description !== undefined ) {
+               description = info.event.extendedProps.description;
+          }
+          alert('件名：' + info.event.title + '\n' + '場所：' + location + '\n' + '詳細：' + description );
+          info.jsEvent.preventDefault();
          if (info.event.url) {
          }
         },
