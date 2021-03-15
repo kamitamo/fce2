@@ -5,7 +5,7 @@ layout: page
 
   <head>
     <meta charset='utf-8' />
-    <meta name=”robots” content=”noindex”>
+    <meta name="robots" content="noindex">
     <link href='assets/css/fullcalendar/main.css' rel='stylesheet' />
     <script src='assets/javascripts/fullcalendar/main.js'></script>
     <script src='assets/javascripts/fullcalendar/locales/ja.js'></script>
