@@ -1,5 +1,5 @@
 ---
-title: "活動予定表"
+title: 関係者スケジュール
 layout: page
 ---
 
