@@ -8,8 +8,8 @@ table {
   border-collapse: collapse;
   /* For Firefox to horizontally scroll wider tables */
   // scss-lint:disable DuplicateProperty
-  word-break: normal;
-  word-break: keep-all;
+  //word-break: normal;
+  //word-break: keep-all;
 }
 
 th,
