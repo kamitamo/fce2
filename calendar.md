@@ -7,8 +7,6 @@ actions:
     url: "https://calendar.google.com/calendar/ical/57kunjloinh68h73hug19l4tjg%40group.calendar.google.com/public/basic.ics"
 ---
 
-[予定を自分のGoogleカレンダーに追加する](https://calendar.google.com/calendar/u/0?cid=NTdrdW5qbG9pbmg2OGg3M2h1ZzE5bDR0amdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ)
-
   <head>
     <meta charset='utf-8' />
     <meta name="robots" content="noindex">
