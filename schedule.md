@@ -28,6 +28,7 @@ actions:
 
       let calendar = new FullCalendar.Calendar(calendarEl, {
 
+      eventOrder: '-title',
       contentHeight: 'auto',
       initialView: 'listMonth',
       themeSystem: 'bootstrap',
