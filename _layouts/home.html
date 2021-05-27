@@ -13,8 +13,6 @@ layout: default
         <h2>{{ site.data.theme.t.posts | default: 'Posts' }}{% if paginator.page > 1 %}{{ site.data.theme.t.page | default: 'Page' | prepend: ' - ' | append: ' ' }}{{ paginator.page }} {{ site.data.theme.t.of | default: 'of' }} {{ paginator.total_pages }}{% endif %}</h2>
       </header>
       <div class="entries-{{ page.entries_layout | default: 'list' }}">
-          <!-- ninja ad -->
-          <div class="admax-native" data-admax-id="a202c785137d648cdb288bd18492fc5a"></div>
         {% if site.plugins contains 'jekyll-paginate' and page.paginate or site.gems contains 'jekyll-paginate' and page.paginate %}
 
           {% comment %}
